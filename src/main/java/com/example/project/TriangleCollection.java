@@ -40,7 +40,7 @@ public class TriangleCollection {
     // Calculate and return the sum of the perimeters of
     // all Triangles in the collection
     public double totalPerimeter() {
-      int sum = 0;
+      double sum = 0;
       for (Triangle tri : collection) {
         sum += tri.perimeter();
       }
