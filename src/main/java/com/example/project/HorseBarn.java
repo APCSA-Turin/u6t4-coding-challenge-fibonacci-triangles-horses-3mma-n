@@ -32,7 +32,12 @@ public class HorseBarn {
     public String horseBarnInfo() {
         String str = "";
         for (int i = 0; i < stalls.length; i++) {
-            str += i + ". " + stalls[i].getName();
+            str += "Stall " + i + ": ";
+            if (stalls[i] = null) {
+                str += "empty\n"
+            } else {
+                str += "name: " + stalls[i].getName() + "weight: " + weight + "\n";
+            }
         }
         return str;
     }

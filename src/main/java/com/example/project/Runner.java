@@ -27,13 +27,7 @@ public class Runner {
         }
         System.out.println();
 
-        for (Horse each : barn1.getStalls()) {
-            if (each != null) {
-                System.out.print(each.getName() + " ");
-            } else {
-                System.out.print("null ");
-            }
-        }
+        System.out.println(horseBarnInfo);
         System.out.println();
     }
 }
