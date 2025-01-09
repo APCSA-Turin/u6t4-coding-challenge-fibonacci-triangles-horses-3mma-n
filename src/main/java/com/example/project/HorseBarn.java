@@ -33,10 +33,10 @@ public class HorseBarn {
         String str = "";
         for (int i = 0; i < stalls.length; i++) {
             str += "Stall " + i + ": ";
-            if (stalls[i] = null) {
-                str += "empty\n"
+            if (stalls[i] == null) {
+                str += "empty\n";
             } else {
-                str += "name: " + stalls[i].getName() + "weight: " + weight + "\n";
+                str += "name: " + stalls[i].getName() + ", weight: " + stalls[i].getWeight() + "\n";
             }
         }
         return str;

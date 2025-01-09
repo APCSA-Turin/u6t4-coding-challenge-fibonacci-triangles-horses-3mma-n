@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.TestHorseBarn" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-01-08T17:29:03" hostname="codespaces-e0b1c7" time="0.006">
+<testsuite name="com.example.project.TestHorseBarn" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-01-09T16:21:14" hostname="codespaces-e0b1c7" time="0.005">
   <properties/>
   <testcase name="testHorseBarnConstructorAndGetStalls()" classname="com.example.project.TestHorseBarn" time="0.001"/>
   <testcase name="testPlaceHorseAndFindHorseStall()" classname="com.example.project.TestHorseBarn" time="0.001"/>

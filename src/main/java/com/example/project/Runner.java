@@ -27,7 +27,7 @@ public class Runner {
         }
         System.out.println();
 
-        System.out.println(horseBarnInfo);
+        System.out.println(barn1.horseBarnInfo());
         System.out.println();
     }
 }
